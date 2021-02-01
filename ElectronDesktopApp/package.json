@@ -1,0 +1,31 @@
+{
+  "name": "password-saver",
+  "version": "1.0.0",
+  "description": "Electron based Desktop application used to generate random password and saves it to database",
+  "main": "master.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/007Nil/Password-Saver.git"
+  },
+  "author": "Sagnik Sarkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/007Nil/Password-Saver/issues"
+  },
+  "homepage": "https://github.com/007Nil/Password-Saver#readme",
+  "devDependencies": {
+    "electron": "^10.1.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "mysql": "^2.18.1",
+    "popper.js": "^1.16.1",
+    "save": "^2.4.0",
+    "sequelize": "^6.3.5"
+  }
+}
